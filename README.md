@@ -1,1 +1,2 @@
 # maven.war
+maven
