@@ -1,623 +1,302 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>hightech</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- awesome fontfamily -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="" /></div>
-      </div>
-      <!-- end loader -->
-      <!-- header -->
-      <header>
-         <div class="header">
-            <div class="container-fluid">
-               <div class="row d_flex">
-                  <div class=" col-md-2 col-sm-3 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-8 col-sm-9">
-                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3b16df9525.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="homeSection">
+        <a class="navbar-brand" href="#">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="navbar-image" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" id="navItem1" href="#wcuSection">Wcu section <span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="navItem2" href="#exploreSection">Explore menu section</a>
+                <a class="nav-link" id="navItem3" href="#deliverySection">delivery and payment</a>
+                <a class="nav-link" id="navItem4" href="#thankyouSection">Thankyousection</a>
+                <a class="nav-link" id="navItem4" href="#followUs">Follow Us</a>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-bg-section d-flex flex-column justify-content-center">
+        <div class="text-center">
+            <h1 class="section-heading">Get Delicious Food Anytime</h1>
+            <p class="section-description">Eat Smart & Healthy</p>
+            <button class="custom-button">View More</button>
+            <button class="custom-button-transparency">Order Now</button>
+        </div>
+    </div>
+
+    <div class="wcu-container-section pt-5 pb-5" id="wcuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wcu-mainheading">Why Choose Us?</h1>
+                    <p class="wcu-description">We use both original recipes and classic versions of famous food items.</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png" class="card-images" />
+                        <h1 class="wcu-mainheading mt-3">Food Services</h1>
+                        <p class="wcu-description">Experience fine dining at the comfort of your home.
+                            All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/fruits-img.png" class="card-images" />
+                        <h1 class="wcu-mainheading mt-3">Fresh Food</h1>
+                        <p class="wcu-description">The Fresh Food group provides fresh-cut fruits and vegetables directly
+                            picked from our partner farms and farm houses so that you always get them tree to plate.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/offers-img.png" class="card-images" />
+                        <h1 class="wcu-mainheading mt-3">Best Offers</h1>
+                        <p class="wcu-description">Experience fine dining at the comfort of your home.
+                            All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="explore-menu-section pt-5 pb-5" id="exploreSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="main-heading">Explore Menu</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="shadow card-container p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" class="card-image w-100" />
+                        <h1 class="card-section-heading">Non-Veg Staters</h1>
+                        <a href="" class="card-description">View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="shadow card-container p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-veg-starters-img.png" class="card-image w-100" />
+                        <h1 class="card-section-heading">Veg Staters</h1>
+                        <a href="" class="card-description">View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="shadow card-container p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-soup-img.png" class="card-image w-100" />
+                        <h1 class="card-section-heading">Soups</h1>
+                        <a href="" class="card-description">View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="shadow card-container p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-grilled-seafood-img.png" class="card-image w-100" />
+                        <h1 class="card-section-heading">Fish & Sea Foods</h1>
+                        <a href="" class="card-description">View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="shadow card-container p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-hyderabadi-biryani-img.png" class="card-image w-100" />
+                        <h1 class="card-section-heading">Main Course</h1>
+                        <a href="" class="card-description">View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="shadow card-container p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-mushroom-noodles-img.png" class="card-image w-100" />
+                        <h1 class="card-section-heading">Noodles</h1>
+                        <a href="" class="card-description">View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="shadow card-container p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-gluten-img.png" class="card-image w-100" />
+                        <h1 class="card-section-heading">Salads</h1>
+                        <a href="" class="card-description">View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mb-3">
+                    <div class="shadow card-container p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-coffee-bourbon-img.png" class="card-image w-100" />
+                        <h1 class="card-section-heading">Desserts</h1>
+                        <a href="" class="card-description">View More
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="healthy-food-section pt-5 pb-5" id="deliverySection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/healthy-food-plate-img.png" class="food-image" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <h1 class="food-section-heading">Fresh, Healthy, Organic, Delicious Fruits</h1>
+                    <p class="food-section-description">Say no to harmful chemicals and
+                        go fully organic with our range of fresh fruits and veggies.
+                        Pamper your body and your senses with the true and unadulterated gifts from mother nature.
+                        with the true and unadulterated gifts from mother nature.</p>
+                    <button class="food-section-button">Watch Video</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="offers-card-section pt-3 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <div class="container text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/delivery-payment-section-img.png" class="offers-card-image" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 order-2 order-md-1 pt-5">
+                    <h1 class="delivery-payment-section-heading">Delivery and Payment</h1>
+                    <p class="delivery-payment-section-description">Enjoy hassle-free payment with the plenitude of payment options available for you.
+                        Get live tracking and locate your food on a live map.
+                        It's quite a sight to see your food arrive to your door.
+                        Plus, you get a 5% discount on every order every time you pay online.</p>
+                    <button class="delivery-button">Order Now</button>
+                    <div class="mt-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="payment-card-image" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" class="payment-card-image" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" class="payment-card-image" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png" class="payment-card-image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="thank-you-section pt-5 pb-5" id="thankyouSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                    <h1 class="thankyou-section-heading">Thank you for being a valuable customer to us.</h1>
+                    <p class="thankyou-section-description">We have a surprise gift for you</p>
+                    <div class="d-md-none">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="gift-card-image" />
+                    </div>
+                    <div>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="gift-button" data-toggle="modal" data-target="#exampleModal">
+                            Redeem gift
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarsExample04">
-                           <ul class="navbar-nav mr-auto">
-                              <li class="nav-item active">
-                                 <a class="nav-link" href="index.html">Home</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="about.html">About</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="we_do.html">What we do</a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="portfolio.html">Portfolio </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="contact.html">Contact Us</a>
-                              </li>
-                           </ul>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Gift cards</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png" class="w-100" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                     </nav>
-                  </div>
-                  <div class="col-md-2 d_none">
-                     <ul class="email text_align_right">
-                        <li> <a href="Javascript:void(0)"> Login </a></li>
-                        <li> <a href="Javascript:void(0)"> <i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"> </i></a> </li>
-                     </ul>
-                  </div>
-               </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 d-none d-md-block">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="gift-card-image" />
+                </div>
             </div>
-         </div>
-      </header>
-      <!-- end header -->
-      <!-- start slider section -->
-      <div id="top_section" class=" banner_main">
-         <div class="container">
+        </div>
+    </div>
+
+    <div class="follow-us-section pt-5 pb-5" id="followUs">
+        <div class="container">
             <div class="row">
-               <div class="col-md-12">
-                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="bluid">
-                                    <h1>Creative  <br>Work Idea </h1>
-                                    <p>There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration
-                                    </p>
-                                    <a class="read_more" href="about.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
-                                 </div>
-                              </div>
-                           </div>
+                <div class="col-12">
+                    <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-twitter icon"></i>
                         </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="bluid">
-                                    <h1>Creative  <br>Work Idea </h1>
-                                    <p>There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration
-                                    </p>
-                                    <a class="read_more" href="about.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
-                                 </div>
-                              </div>
-                           </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-instagram icon"></i>
                         </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="bluid">
-                                    <h1>Creative  <br>Work Idea </h1>
-                                    <p>There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration
-                                    </p>
-                                    <a class="read_more" href="about.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
-                                 </div>
-                              </div>
-                           </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-facebook icon"></i>
                         </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption relative">
-                                 <div class="bluid">
-                                    <h1>Creative  <br>Work Idea </h1>
-                                    <p>There are many variations of passages of Lorem Ipsum <br>available, but the majority have suffered alteration
-                                    </p>
-                                    <a class="read_more" href="about.html">About Company </a><a class="read_more" href="contact.html">Contact </a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                     <i class="fa fa-angle-left" aria-hidden="true"></i>
-                     <span class="sr-only">Previous</span>
-                     </a>
-                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                     <span class="sr-only">Next</span>
-                     </a>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
-      <!-- end slider section -->
-      <!-- we_do -->
-      <div class="we_do">
-         <div class="container">
+        </div>
+    </div>
+
+    <div class="footer-section pt-5 pb-5">
+        <div class="container">
             <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h2>What we do </h2>
-                  </div>
-               </div>
+                <div class="col-12 text-center">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-logo-light.png" class="food-munch-logo" />
+                    <h1 class="footer-section-mail-id">orderfood@foodmunch.com</h1>
+                    <p class="footer-section-address">
+                        123 Ayur Vigyan Nagar, New Delhi, India.
+                    </p>
+                </div>
             </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div id="we1" class="carousel slide" data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#we1" data-slide-to="0" class="active"></li>
-                        <li data-target="#we1" data-slide-to="1"></li>
-                        <li data-target="#we1" data-slide-to="2"></li>
-                        <li data-target="#we1" data-slide-to="3"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="container-fluid">
-                              <div class="carousel-caption we1_do">
-                                 <div class="row">
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption we1_do">
-                                 <div class="row">
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we2.png" alt="#"/></i>
-                                          <h3>App <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we3.png" alt="#"/></i>
-                                          <h3>website <br>design</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container-fluid">
-                              <div class="carousel-caption we1_do">
-                                 <div class="row">
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                       <div id="bo_ho" class="we_box text_align_left">
-                                          <i><img src="images/we1.png" alt="#"/></i>
-                                          <h3>website <br>development</h3>
-                                          <p>many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which
-                                          </p>
-                                          <a class="read_more" href="we_do">Read More</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="carousel-control-prev" href="#we1" role="button" data-slide="prev">
-                     <i class="fa fa-angle-left" aria-hidden="true"></i>
-                     <span class="sr-only">Previous</span>
-                     </a>
-                     <a class="carousel-control-next" href="#we1" role="button" data-slide="next">
-                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                     <span class="sr-only">Next</span>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end we_do -->
-      <!-- about -->
-      <div class="about">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <h2>About Company</h2>
-                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end about -->
-      <!-- portfolio -->
-      <div class="portfolio">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_left">
-                     <h2>We Have Done Portfolio  </h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6">
-                  <div id="ho_nf" class="portfolio_main text_align_left">
-                     <figure>
-                        <img src="images/prot1.png" alt="#"/>
-                        <div class="portfolio_text">
-                           <div class="li_icon">
-                              <a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
-                              <a href="Javascript:void(0)"><i class="fa fa-link" aria-hidden="true"></i></a>
-                           </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div id="ho_nf" class="portfolio_main text_align_left">
-                     <figure>
-                        <img src="images/prot2.png" alt="#"/>
-                        <div class="portfolio_text">
-                           <div class="li_icon">
-                              <a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
-                              <a href="Javascript:void(0)"><i class="fa fa-link" aria-hidden="true"></i></a>
-                           </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div id="ho_nf" class="portfolio_main text_align_left">
-                     <figure>
-                        <img src="images/prot3.png" alt="#"/>
-                        <div class="portfolio_text">
-                           <div class="li_icon">
-                              <a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
-                              <a href="Javascript:void(0)"><i class="fa fa-link" aria-hidden="true"></i></a>
-                           </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-md-6">
-                  <div id="ho_nf" class="portfolio_main text_align_left">
-                     <figure>
-                        <img src="images/prot4.png" alt="#"/>
-                        <div class="portfolio_text">
-                           <div class="li_icon">
-                              <a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
-                              <a href="Javascript:void(0)"><i class="fa fa-link" aria-hidden="true"></i></a>
-                           </div>
-                           <h3>Carrency Dashbord</h3>
-                           <p>There are many variations of passages of Lorem Ipsum available, but the majoraity have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
-                        </div>
-                     </figure>
-                  </div>
-               </div>
-               <div class="col-md-12">
-                  <a class="read_more" href="portfolio.html">See More</a>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end portfolio -->
-      <!-- chose -->
-      <div class="chose">
-         <div class="container">
-            <div class="row d_flex">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_left">
-                     <h2>Why Chose us</h2>
-                  </div>
-               </div>
-               <div class="col-lg-5 col-md-4">
-                  <div class="chose_box">
-                     <i><img src="images/chose1.png" alt="#"/></i>
-                     <h3>Project Done </h3>
-                     <strong>1000+</strong>
-                     <a class="read_more" href="Javascript:void(0)">Read More</a>
-                  </div>
-               </div>
-               <div class="col-lg-5 col-md-4">
-                  <div class="chose_box">
-                     <i><img src="images/chose2.png" alt="#"/></i>
-                     <h3>Happy Clients </h3>
-                     <strong>900+</strong>
-                     <a class="read_more" href="Javascript:void(0)">Read More</a>
-                  </div>
-               </div>
-               <div class="col-lg-2 col-md-4">
-                  <div class="chose_box">
-                     <i><img src="images/chose3.png" alt="#"/></i>
-                     <h3>Awards</h3>
-                     <strong>100+</strong>
-                     <a class="read_more" href="Javascript:void(0)">Read More</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end chose -->
-      <!-- contact -->
-      <div class="contact">
-         <div class="container">
-            <div class="row ">
-               <div class="col-md-6">
-                  <div class="titlepage text_align_left">
-                     <h2>Get In Touch</h2>
-                  </div>
-                  <form id="request" class="main_form">
-                     <div class="row">
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Name" type="type" name=" Name"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email">                          
-                        </div>
-                        <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Message" type="type" Message="Name"></textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Send Now</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-               <div class="col-md-6">
-                  <div class="titlepage text_align_left">
-                     <h2>What Says Clients</h2>
-                  </div>
-                  <div id="clientsl" class="carousel slide our_clientsl" data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#clientsl" data-slide-to="0" class="active"></li>
-                        <li data-target="#clientsl" data-slide-to="1"></li>
-                        <li data-target="#clientsl" data-slide-to="2"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="container">
-                              <div class="carousel-caption posi_in">
-                                 <div class="clientsl_text">
-                                    <i><img src="images/clint.jpg" alt="#"/></i>
-                                    <h3>Deno <img src="images/icon.png" alt="#"/></h3>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem IpsumIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container">
-                              <div class="carousel-caption posi_in">
-                                 <div class="clientsl_text">
-                                    <i><img src="images/clint.jpg" alt="#"/></i>
-                                    <h3>Deno <img src="images/icon.png" alt="#"/></h3>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem IpsumIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container">
-                              <div class="carousel-caption posi_in">
-                                 <div class="clientsl_text">
-                                    <i><img src="images/clint.jpg" alt="#"/></i>
-                                    <h3>Deno <img src="images/icon.png" alt="#"/></h3>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem IpsumIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="carousel-control-prev" href="#clientsl" role="button" data-slide="prev">
-                     <i class="fa fa-angle-left" aria-hidden="true"></i>
-                     <span class="sr-only">Previous</span>
-                     </a>
-                     <a class="carousel-control-next" href="#clientsl" role="button" data-slide="next">
-                     <i class="fa fa-angle-right" aria-hidden="true"></i>
-                     <span class="sr-only">Next</span>
-                     </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- contact -->
-      <!-- footer -->
-      <footer>
-         <div class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-3">
-                     <a class="logo_footer" href="index.html"><img src="images/logo_footer.png" alt="#" /></a>
-                  </div>
-                  <div class="col-md-9">
-                     <form class="newslatter_form">
-                        <input class="ente" placeholder="Enter your email" type="text" name="Enter your email">
-                        <button class="subs_btn">Sbscribe Now</button>
-                     </form>
-                  </div>
-                  <div class="col-md-3 col-sm-6"
-                  >
-                     <div class="Informa helpful">
-                        <h3>Useful  Link</h3>
-                        <ul>
-                           <li><a href="index.html">Home</a></li>
-                           <li><a href="about.html">About</a></li>
-                           <li><a href="we_do.html">What we do</a></li>
-                           <li><a href="portfolio.html">Portfolio</a></li>
-                           <li><a href="contact.html">Contact us</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                     <div class="Informa">
-                        <h3>News</h3>
-                        <ul>
-                           <li>It is a long established                            
-                           </li>
-                           <li>fact that a reader will                           
-                           </li>
-                           <li>be distracted by the                           
-                           </li>
-                           <li>readable content of a                              
-                           </li>
-                           <li>page when                          
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                     <div class="Informa">
-                        <h3>company</h3>
-                        <ul>
-                           <li>It is a long established                             
-                           </li>
-                           <li>fact that a reader will                            
-                           </li>
-                           <li>be distracted by the                          
-                           </li>
-                           <li>readable content of a                              
-                           </li>
-                           <li>page when                          
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-md-3 col-sm-6">
-                     <div class="Informa conta">
-                        <h3>contact Us</h3>
-                        <ul>
-                           <li> <a href="Javascript:void(0)"> <i class="fa fa-map-marker" aria-hidden="true"></i> Location
-                              </a>
-                           </li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-phone" aria-hidden="true"></i> Call +01 1234567890
-                              </a>
-                           </li>
-                           <li> <a href="Javascript:void(0)"> <i class="fa fa-envelope" aria-hidden="true"></i> demo@gmail.com
-                              </a>
-                           </li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="copyright text_align_left">
-               <div class="container">
-                  <div class="row d_flex">
-                     <div class="col-md-6">
-                        <p>© 2020 All Rights Reserved.  <a href="https://html.design/"> Free Html Template</a></p>
-                     </div>
-                     <div class="col-md-6">
-                        <ul class="social_icon text_align_center">
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                           <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                        </ul>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/custom.js"></script>
-   </body>
+        </div>
+    </div>
+</body>
+
 </html>
