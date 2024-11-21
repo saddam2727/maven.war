@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('git checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Radhakrishnaaaaa/maven.war.git'
+                git branch: 'main', url: 'https://github.com/saddam2727/maven.war.git'
             }
         }
         stage ('validate the project') {
